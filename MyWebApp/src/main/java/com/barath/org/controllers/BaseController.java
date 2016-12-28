@@ -26,11 +26,11 @@ public class BaseController {
 
 	}
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	/*@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String login(ModelMap model) {
 		logger.debug("[welcomeName] login : {}");
 		System.out.println("comes here 2");
 		model.addAttribute("loginBean", new Users());
 		return "login";
-	}
+	}*/
 }

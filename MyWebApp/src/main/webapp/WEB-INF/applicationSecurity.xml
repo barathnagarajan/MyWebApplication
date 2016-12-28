@@ -12,9 +12,10 @@
         <security:intercept-url pattern="/accessdenied" access="permitAll"></security:intercept-url>
         <security:intercept-url pattern="/resources/**" access="permitAll" />
         <security:intercept-url pattern="/loadIndexPage" access="hasRole('ROLE_INDEX')" />
-        <security:intercept-url pattern="/**" access="permitAll"></security:intercept-url>
+        <security:intercept-url pattern="/pages/home/**" access="permitAll" />
+        <security:intercept-url pattern="/**" access="isAuthenticated()"></security:intercept-url>
         <security:form-login login-page="/loadLoginPage" 
-        					 default-target-url="/loadIndexPage" 
+        					 default-target-url="/" 
         					 authentication-failure-url="/accessdenied" 
         					 login-processing-url="/j_spring_security_check"
         					 username-parameter="j_username"
