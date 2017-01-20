@@ -50,10 +50,11 @@
 				<value>com.barath.org.beans.Permission</value>
 				<value>com.barath.org.beans.UserToRoleMapping</value>
 				<value>com.barath.org.beans.RoleToPermissionMapping</value>
+				<value>com.barath.org.beans.Customer</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
-			<props>  
+			<props>
 				<prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>  
 				<prop key="hibernate.hbm2ddl.auto">update</prop>  
 				<prop key="hibernate.show_sql">true</prop>  	  

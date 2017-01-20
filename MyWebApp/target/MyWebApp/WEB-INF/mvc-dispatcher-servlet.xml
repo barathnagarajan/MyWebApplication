@@ -50,6 +50,7 @@
 				<value>com.barath.org.beans.Permission</value>
 				<value>com.barath.org.beans.UserToRoleMapping</value>
 				<value>com.barath.org.beans.RoleToPermissionMapping</value>
+				<value>com.barath.org.beans.Customer</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
